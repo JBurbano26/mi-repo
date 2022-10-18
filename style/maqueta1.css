@@ -1,0 +1,41 @@
+.page-content{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+
+.header{
+    background-color: #09A603;
+    width: 80%;
+    height: 100px;
+
+
+}
+.img-principal{
+    background-color: #545659;
+    width: 80%;
+    height: 100px;
+
+
+}
+
+.img-articulo{
+    background-color: #F29F05;
+    width: 80%;
+    height: 100px;
+
+}
+
+.titulo-articulo{
+    background-color: rgb(200, 200, 200);
+    width: 80%;
+    height: 100px;
+
+}
+
+.texto-articulo{
+    background-color: goldenrod;
+    width: 80%;
+    height: 100px;
+}
