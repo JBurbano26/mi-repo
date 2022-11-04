@@ -51,6 +51,15 @@ width: 60%;
 
     list-style: none;
 }
+
+.barra-menu{
+    display: none;
+    text-align: right;
+    font-size: 2.5em;
+    padding: 20px;
+    color: rgb(48, 48, 48, .9);
+}
+
 .txt-menu{
 display: flex;
 align-items: center;
@@ -130,7 +139,9 @@ article {
         grid-template: "article-1 article-2" /
                         1fr       1fr
     }
-
+    .barra-menu{
+        display: block;
+    }
 }
 
 @media only screen and (max-width: 800px) {
@@ -139,5 +150,7 @@ article {
         grid-template: "article-1" /
                         1fr
     }
-
+    .barra-menu{
+        display: block;
+    }
 }
